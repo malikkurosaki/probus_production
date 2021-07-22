@@ -1,7 +1,7 @@
 ---
 title: bcc
 layout: default
-permalink: /project-bcc
+permalink: /project-bcc/
 description: ini keterngan nya dari bcc
 ---
 
