@@ -2,5 +2,5 @@
 title: about
 layout: default
 type: menu
-permalink: /about/
+permalink: /probus_production/about/
 ---

@@ -2,5 +2,5 @@
 title: home
 layout: default
 type: menu
-permalink: /home/
+permalink: /probus_production/home/
 ---
