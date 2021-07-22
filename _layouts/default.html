@@ -4,17 +4,15 @@
   <body class="container">
     <header>
       <a href="{{site.url}}"><h3>{{ site.title }}</h3></a>
-      <h4>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-
+      <nav>
+        {% for page in site.pages %}
+          {% if page.type == "menu" %}
+              <a class="button" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
+          {% endif %}     
+        {% endfor %}
+      </nav>
+      <h5>{{ page.description | default: site.description | default: site.github.project_tagline }}</h5>
     </header>
-    <nav>
-      {% for page in site.pages %}
-        {% if page.type == "menu" %}
-            <a class="button" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
-        {% endif %}     
-      {% endfor %}
-    </nav>
-    
     <main role="main">
       <div>{{ content }}</div>
      
