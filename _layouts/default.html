@@ -2,20 +2,19 @@
 <html >
   {% include head.html %}
   <body class="container">
-    <header>
+    <header class="row">
       <a href="{{site.url}}"><h3>{{ site.title }}</h3></a>
-      <nav>
+      <nav class="float-left">
         {% for page in site.pages %}
           {% if page.type == "menu" %}
               <a class="button button-clear" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
           {% endif %}     
         {% endfor %}
       </nav>
-      <h5>{{ page.description | default: site.description | default: site.github.project_tagline }}</h5>
     </header>
     <main role="main">
+      <h3>{{ page.description | default: site.description | default: site.github.project_tagline }}</h3>
       <div>{{ content }}</div>
-     
     </main>
     <footer >
       {% include footer.html %}
