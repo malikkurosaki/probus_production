@@ -7,3 +7,4 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-toc
+paginate: 20

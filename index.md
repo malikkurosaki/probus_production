@@ -2,4 +2,6 @@
 layout: default
 ---
 
-# halo apa kabar ini adalah layout defaylnya
+{% for post in paginator.posts %}
+    {{ post.title }}
+{% endfor %}
