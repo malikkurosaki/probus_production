@@ -7,19 +7,19 @@
       <h4>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
 
     </header>
-    <nav class="column column-25">
-      {% for page in site.pages %}
-        {% if page.type == "menu" %}
-            <a class="button button-clear" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
-        {% endif %}     
-      {% endfor %}
-    </nav>
-    <main class="column column-75" role="main">
-      {{ content }}
-      
-      <footer class="site-footer">
-        footernya
-      </footer>
+    
+    <main class="row" role="main">
+      <nav class="column column-25">
+        {% for page in site.pages %}
+          {% if page.type == "menu" %}
+              <a class="button button-clear" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
+          {% endif %}     
+        {% endfor %}
+      </nav>
+      <div class="column column-75">{{ content }}</div>
     </main>
+    <footer class="site-footer">
+      footernya
+    </footer>
   </body>
 </html>
