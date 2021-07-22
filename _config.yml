@@ -2,3 +2,8 @@ title: Probus Production
 include: ["_pages"]
 markdown: kramdown
 url: https://malikkurosaki.github.io/probus_production/
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-toc
