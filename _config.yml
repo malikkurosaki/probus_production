@@ -1,5 +1,5 @@
 title: Probus Production
-include: ["_pages", "_posts"]
+include: [_pages, _posts]
 markdown: kramdown
 url: https://malikkurosaki.github.io/probus_production/
 # plugins:
