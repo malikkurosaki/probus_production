@@ -2,3 +2,4 @@ title: Probus Production
 include: ["_pages"]
 github:
   is_project_page: false
+theme: jekyll-theme-cayman
