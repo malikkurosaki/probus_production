@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html >
   {% include head.html %}
-  <body class="container">
-    <header class="row">
-      <a class="column" href="{{site.url}}"><img src="https://www.probussystem.com/site/templates/images/logo-horizontal.png"></a>
-      <nav class="column column-50 column-offset-25">
-        {% for page in site.pages %}
-          {% if page.type == "menu" %}
-              <a class="button button-clear" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
-          {% endif %}     
-        {% endfor %}
-      </nav>
-    </header>
-    <hr>
-    <main role="main">
-      <h3>{{ page.description | post.description }}</h3>
-      <div>{{ content }}</div>
-      <footer >
-        {% include footer.html %}
-      </footer>
-    </main>
+  <body>
+    <div class="container">
+      <header class="row">
+        <a class="column" href="{{site.url}}"><img src="https://www.probussystem.com/site/templates/images/logo-horizontal.png"></a>
+        <nav class="column column-50 column-offset-25">
+          {% for page in site.pages %}
+            {% if page.type == "menu" %}
+                <a class="button button-clear" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
+            {% endif %}     
+          {% endfor %}
+        </nav>
+      </header>
+      <hr>
+      <main role="main">
+        <h3>{{ page.description | post.description }}</h3>
+        <div>{{ content }}</div>
+        <footer >
+          {% include footer.html %}
+        </footer>
+      </main>
+    </div>
   </body>
 </html>
