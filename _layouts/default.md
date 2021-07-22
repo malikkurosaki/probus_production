@@ -7,3 +7,7 @@ title: default
         + <a class=" " href="{{ page.url }}"> {{ page.title }}</a>
     {% endif %}     
 {% endfor %}
+
+{{ content }}
+
+### ini footernya
