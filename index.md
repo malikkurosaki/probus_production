@@ -4,7 +4,7 @@ description: apa kabarnya ini disini
 ---
 
 {% for post in site.posts %}
-    dimana apa nya
+    {{ post.title }}
 {% endfor %}
 
-sini bawahnya
+halo ini index
