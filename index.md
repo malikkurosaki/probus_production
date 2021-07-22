@@ -4,7 +4,7 @@ description: apa kabarnya ini disini
 ---
 
 {% for post in site.posts %}
-    {{ post.title }}
+    <a href="">{{ post.title }}</a>
 {% endfor %}
 
 halo ini index
