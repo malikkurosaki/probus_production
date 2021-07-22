@@ -5,4 +5,4 @@ type: menu
 permalink: /home/
 ---
 
-# halo ini home
+ini adalah home nya

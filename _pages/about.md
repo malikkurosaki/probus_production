@@ -5,4 +5,4 @@ type: menu
 permalink: /about/
 ---
 
-### halo ini about
+ini adlah about ya
