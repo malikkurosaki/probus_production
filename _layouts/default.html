@@ -4,7 +4,7 @@
   <body class="container">
     <header class="row">
       <a class="column" href="{{site.url}}"><h3>{{ site.title }}</h3></a>
-      <nav class="float-left">
+      <nav class="column column-50 column-offset-25">
         {% for page in site.pages %}
           {% if page.type == "menu" %}
               <a class="button button-clear" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
