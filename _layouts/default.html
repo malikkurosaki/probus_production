@@ -14,7 +14,7 @@
     </header>
     <hr>
     <main role="main">
-      <h3>{{ page.description | default: site.description | default: site.github.project_tagline }}</h3>
+      <h3>{{ page.description | post.description }}</h3>
       <div>{{ content }}</div>
     </main>
     <footer >
