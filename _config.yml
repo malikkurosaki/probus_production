@@ -1,7 +1,4 @@
 title: Probus Production
 include: ["_pages"]
-github:
-  is_project_page: false
-theme: jekyll-theme-minima
 markdown: kramdown
 url: https://malikkurosaki.github.io/probus_production/
