@@ -3,10 +3,7 @@ layout: default
 description: apa kabarnya ini disini
 ---
 
-- lihat iini jadi apa ya
-{{ paginator.posts }}
-
-{% for post in paginator.posts %}
+{% for post in site.posts %}
     {{ post.title }} dimana apa nya
 {% endfor %}
 
