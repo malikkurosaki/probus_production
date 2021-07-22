@@ -19,23 +19,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-
-    <!-- CSS Reset -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-
-    <!-- Milligram CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
 
-<!-- You should properly set the path from the main file. -->
   </head>
   <body class="container">
-    <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
 
-    <header class="page-header" role="banner">
+    <header>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h4>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       
       {% for page in site.pages %}
           {% if page.type == "menu" %}
@@ -45,11 +38,12 @@
 
     </header>
 
-    <main id="content" class="main-content" role="main">
+    <main id="container" class="main-content" role="main">
       {{ content }}
+      
+      <footer class="site-footer">
+        footernya
+      </footer>
     </main>
-    <footer class="site-footer">
-      footernya
-    </footer>
   </body>
 </html>
