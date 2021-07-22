@@ -3,16 +3,15 @@
   {% include head.html %}
   <body>
     <header>
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h4>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      
-      <nav >
+      <div class="row">
+        <h1 class="column">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         {% for page in site.pages %}
           {% if page.type == "menu" %}
-              <a class="button button-outline" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
+              <a class="column button button-clear" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
           {% endif %}     
         {% endfor %}
-      </nav>
+      </div>
+      <h4>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
 
     </header>
 
