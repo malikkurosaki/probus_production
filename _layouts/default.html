@@ -6,11 +6,13 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h4>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       
-      {% for page in site.pages %}
+      <nav >
+        {% for page in site.pages %}
           {% if page.type == "menu" %}
               <a class="button button-outline" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
           {% endif %}     
-      {% endfor %}
+        {% endfor %}
+      </nav>
 
     </header>
 
