@@ -29,7 +29,7 @@
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% for page in site.pages %}
           {% if page.type == "menu" %}
-              <a class=" " href="{{ page.permalink }}"> {{ page.permalink }}</a>
+              <a class=" " href="{{ page.url }}"> {{ page.permalink }}</a>
           {% endif %}     
       {% endfor %}
     </header>
