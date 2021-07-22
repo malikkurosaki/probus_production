@@ -16,9 +16,9 @@
     <main role="main">
       <h3>{{ page.description | post.description }}</h3>
       <div>{{ content }}</div>
+      <footer >
+        {% include footer.html %}
+      </footer>
     </main>
-    <footer >
-      {% include footer.html %}
-    </footer>
   </body>
 </html>
