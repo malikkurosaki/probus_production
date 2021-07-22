@@ -8,3 +8,4 @@ description: apa kabarnya ini disini
 {% for post in paginator.posts %}
     {{ post.title }} dimana apa nya
 {% endfor %}
+sini bawahnya
