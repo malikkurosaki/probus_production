@@ -1,1 +1,5 @@
-{{site.pages}}
+---
+title: main
+---
+
+{{content}}
