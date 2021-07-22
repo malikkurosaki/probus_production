@@ -39,7 +39,7 @@
       
       {% for page in site.pages %}
           {% if page.type == "menu" %}
-              <a class="page-header" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
+              <a class="button" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
           {% endif %}     
       {% endfor %}
 
