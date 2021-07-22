@@ -3,21 +3,18 @@
   {% include head.html %}
   <body>
     <header>
-      <div class="row">
-        <h1 class="float-left">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        <nav class="float-right">
-          {% for page in site.pages %}
-            {% if page.type == "menu" %}
-                <a class="button button-clear" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
-            {% endif %}     
-          {% endfor %}
-        </nav>
-      </div>
+      <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h4>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
 
     </header>
-
-    <main class="container" role="main">
+    <nav class="column column-25">
+      {% for page in site.pages %}
+        {% if page.type == "menu" %}
+            <a class="button button-clear" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
+        {% endif %}     
+      {% endfor %}
+    </nav>
+    <main class="column column-75" role="main">
       {{ content }}
       
       <footer class="site-footer">
