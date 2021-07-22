@@ -1,5 +1,5 @@
 title: Probus Production
-include: [_pages, _posts]
+include: [_pages,_posts]
 markdown: kramdown
 url: https://malikkurosaki.github.io/probus_production/
 # plugins:
@@ -8,3 +8,8 @@ url: https://malikkurosaki.github.io/probus_production/
 #   - jekyll-seo-tag
 #   - jekyll-toc
 paginate: 20
+collections:
+  _pages:
+    output: true
+  _posts:
+    output: true
