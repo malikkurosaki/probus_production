@@ -2,7 +2,7 @@
 <html >
   {% include head.html %}
   <body class="container">
-    <div class="con">
+    <div style="display: flex;flex-direction: column;min-height: 100vh;">
       <header class="row">
         <a class="column-75" href="{{site.url}}"><img src="https://www.probussystem.com/site/templates/images/logo-horizontal.png"></a>
         <nav class="column">
@@ -14,7 +14,7 @@
         </nav>
       </header>
       <hr>
-      <main>
+      <main style="flex: 1;">
         <h3>{{ page.description | post.description }}</h3>
         <div>{{ content }}</div>
         <footer >
