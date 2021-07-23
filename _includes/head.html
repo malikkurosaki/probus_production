@@ -1,6 +1,6 @@
 <meta charset="UTF-8">
-<meta property="og:url"           content="{{ site.url | uri_escape }}{{ post.url }}" />
-<meta property="og:image"         content="{{ post.image | site.favicon }}"/>
+<meta property="og:url"           content="{{ site.url | uri_escape }}{{ post.url | page.url}}" />
+<meta property="og:image"         content="{{ post.image | site.favicon | page.image }}"/>
 <meta property="og:type"          content="website"/>
 
 {% if site.google_analytics %}
