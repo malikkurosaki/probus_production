@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html style="height: 100%;">
   {% include head.html %}
-  <body class="container" style="height: 100%;">
+  <body style="height: 100%;">
     <div style="display: flex;flex-direction: column; height: 100%;">
       <header class="row">
         <a class="column-75" href="{{site.url}}"><img src="https://www.probussystem.com/site/templates/images/logo-horizontal.png"></a>
@@ -14,7 +14,7 @@
         </nav>
       </header>
       <hr>
-      <main style="flex: 1; background-color: ghostwhite;">
+      <main class="container" style="flex: 1; background-color: ghostwhite;">
         <h3>{{ page.description | post.description }}</h3>
         <div>{{ content }}</div>
       </main>
