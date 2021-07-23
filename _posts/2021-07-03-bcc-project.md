@@ -1,5 +1,5 @@
 ---
-title: bcc
+title: project-bcc
 layout: default
 permalink: /project-bcc/
 description: ini keterngan nya dari bcc
