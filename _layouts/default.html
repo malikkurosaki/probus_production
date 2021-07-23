@@ -4,8 +4,8 @@
   <body style="height: 100%;">
     <div style="display: flex;flex-direction: column; height: 100%;">
       <header class="row" style="background-color: #3e404a; padding: 24px;">
-        <a class="column-75" href="{{site.url}}"><img src="https://www.probussystem.com/site/templates/images/logo-horizontal.png"></a>
-        <nav class="column">
+        <a style="background-color: white;" class="column-75" href="{{site.url}}"><img src="https://www.probussystem.com/site/templates/images/logo-horizontal.png"></a>
+        <nav class="column" style="color: white;">
           {% for page in site.pages %}
             {% if page.type == "menu" %}
                 <a class="button button-clear" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
