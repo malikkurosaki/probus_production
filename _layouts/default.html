@@ -10,11 +10,13 @@
           </a>
         </div>
         <nav style="display: flex; flex-direction: column-reverse;">
-          {% for page in site.pages %}
-            {% if page.type == "menu" %}
-                <a class="button" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
-            {% endif %}     
-          {% endfor %}
+          <div>
+            {% for page in site.pages %}
+              {% if page.type == "menu" %}
+                  <a class="button" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
+              {% endif %}     
+            {% endfor %}
+          </div>
         </nav>
       </header>
       <main class="container" style="flex: 1;" >
