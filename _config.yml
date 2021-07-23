@@ -19,3 +19,4 @@ paginate: 20
 theme: minima
 favicon: "favicon.ico"
 icon: "favicon.ico"
+logo: logo.png
