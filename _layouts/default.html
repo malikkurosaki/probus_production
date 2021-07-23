@@ -29,10 +29,10 @@
         <div style="padding: 8px;">{{ content }}</div>
       </main>
       <hr>
-      
+
       disini post image
       {% for img in site.static_files %}
-        {{ img }}
+        {{ img.id }}
       {% endfor %}
 
       <div style="padding: 24px; background-color: #E8F0FA;color: white; display: flex; flex-wrap: wrap; flex-direction: row;  margin: 0; justify-content: center;">
