@@ -4,6 +4,8 @@
     {% include head.html %}
   </head>
   <body style="height: 100%;">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v11.0&appId=1150331995115046&autoLogAppEvents=1" nonce="YenDxtbg"></script>
     <div style="display: flex; flex-direction: column; height: 100%;">
       <header style="display: flex; flex-direction: row; flex-wrap: wrap;">
         <div style="flex: 1;">
@@ -26,6 +28,7 @@
         <h5>{{ page.description | post.description }}</h5>
         <div>{{ content }}</div>
       </main>
+      <div class="fb-comments" data-href="https://malikkurosaki.github.io/probus_production/project-bcc/" data-width="" data-numposts="20"></div>
       <footer 
         style="padding: 24px; 
           background-color: #131C28; 
