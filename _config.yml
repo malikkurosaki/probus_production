@@ -17,3 +17,5 @@ toc:
   item_prefix: toc-
 paginate: 20
 theme: minima
+favicon: "favicon.png"
+icon: "favicon.png"
