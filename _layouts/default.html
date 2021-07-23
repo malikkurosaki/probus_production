@@ -3,7 +3,7 @@
   {% include head.html %}
   <body style="height: 100%;">
     <div style="display: flex;flex-direction: column; height: 100%;">
-      <header class="row" style="background-color: #3e404a;">
+      <header class="row" style="background-color: #3e404a; padding: 24px;">
         <a class="column-75" href="{{site.url}}"><img src="https://www.probussystem.com/site/templates/images/logo-horizontal.png"></a>
         <nav class="column">
           {% for page in site.pages %}
@@ -14,11 +14,11 @@
         </nav>
       </header>
       <hr>
-      <main class="container" style="flex: 1; background-color: ghostwhite;">
+      <main class="container" style="flex: 1; background-color: ghostwhite; padding: 24px;">
         <h3>{{ page.description | post.description }}</h3>
         <div>{{ content }}</div>
       </main>
-      <footer style="background-color: #3e404a; color: white;">
+      <footer style="background-color: #3e404a; color: white; padding: 24px;">
         {% include footer.html %}
       </footer>
     </div>
