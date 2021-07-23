@@ -1,10 +1,4 @@
 
-<meta charset="UTF-8">
-<meta property="og:image"         content="{{ post.image | page.image }}"/>
-<meta property="og:url"           content="{{ site.url | uri_escape }}{{ post.url | page.url | uri_escape}}" />
-<meta property="og:type"          content="website"/>
-<meta property="og:title"         content="{{ site.title }} | {{ page.title | post.title }}"/>
-
 {% if site.google_analytics %}
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
@@ -15,13 +9,15 @@
 </script>
 {% endif %}
 
-
 {% seo %}
+
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#157878">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
 <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"> -->

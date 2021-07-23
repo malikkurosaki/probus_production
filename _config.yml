@@ -21,3 +21,4 @@ favicon: "favicon.ico"
 icon: "favicon.ico"
 logo: logo.png
 baseurl: '/'
+google_analytics:
