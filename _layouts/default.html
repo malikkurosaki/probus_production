@@ -4,7 +4,11 @@
   <body >
     <div style="display: flex; flex-direction: column;">
       <header style="display: flex; flex-direction: row; flex-wrap: wrap;">
-        <a style="flex: 1;" href="{{site.url}}"><img src="https://www.probussystem.com/site/templates/images/logo-horizontal.png"></a>
+        <div style="flex: 1;">
+          <a href="{{site.url}}">
+            <img src="https://www.probussystem.com/site/templates/images/logo-horizontal.png">
+          </a>
+        </div>
         <nav >
           {% for page in site.pages %}
             {% if page.type == "menu" %}
