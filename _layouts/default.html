@@ -9,7 +9,7 @@
             <img src="https://www.probussystem.com/site/templates/images/logo-horizontal.png">
           </a>
         </div>
-        <nav >
+        <nav style="display: flex; flex-direction: column-reverse;">
           {% for page in site.pages %}
             {% if page.type == "menu" %}
                 <a class="button" href="/probus_production{{ page.permalink }}"> {{ page.title }}</a>
