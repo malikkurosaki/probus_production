@@ -17,18 +17,11 @@
       <main style="flex: 1; background-color: ghostwhite;">
         <h3>{{ page.description | post.description }}</h3>
         <div>{{ content }}</div>
-        <footer >
-          {% include footer.html %}
-        </footer>
       </main>
+      <footer >
+        {% include footer.html %}
+      </footer>
     </div>
-
-    <ul>
-      {% for post in site.posts %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
     </ul>
   </body>
 </html>
