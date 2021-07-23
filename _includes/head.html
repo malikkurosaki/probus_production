@@ -1,7 +1,7 @@
 
 <meta charset="UTF-8">
 <meta property="og:image"         content="{{ post.image | page.image }}"/>
-<meta property="og:url"           content="{{ site.url | uri_escape }}{{ post.url | page.url}}" />
+<meta property="og:url"           content="{{ site.url | uri_escape }}{{ post.url | page.url | uri_escape}}" />
 <meta property="og:type"          content="website"/>
 <meta property="og:title"         content="{{ site.title }} | {{ page.title | post.title }}"/>
 
