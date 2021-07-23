@@ -1,7 +1,9 @@
+<link rel="shortcut icon" type="image/png" href="{{ site.favicon | site.icon | post.image | page.image }}"/>
 <meta charset="UTF-8">
 <meta property="og:url"           content="{{ site.url | uri_escape }}{{ post.url | page.url}}" />
 <meta property="og:image"         content="{{ post.image | site.favicon | page.image }}"/>
 <meta property="og:type"          content="website"/>
+<meta property="og:title"         content="{{ site.title }} | {{ page.title | post.title }}"/>
 
 {% if site.google_analytics %}
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
@@ -24,4 +26,3 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
-<link rel="shortcut icon" type="image/png" href="{{ site.favicon | uri_escape }}"/>
