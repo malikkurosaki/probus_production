@@ -30,7 +30,9 @@
       </main>
       <hr>
       disini post image
-      {{ post.image }}
+      {% for img in site.static_files %}
+        {{ img }}
+      {% endfor %}
       <div style="padding: 24px; background-color: #E8F0FA;color: white; display: flex; flex-wrap: wrap; flex-direction: row;  margin: 0; justify-content: center;">
         <div class="fb-comments" data-href="{{ site.url }}{{ page.permalink | post.permalink}}" data-width="" data-numposts="20"></div>
       </div>
