@@ -20,3 +20,4 @@ theme: minima
 favicon: "favicon.ico"
 icon: "favicon.ico"
 logo: logo.png
+baseurl: '/'
