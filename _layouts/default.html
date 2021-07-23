@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html style="height: 100%;">
+<html >
   <head>
     {% include head.html %}
   </head>
-  <body style="height: 100%;">
+  <body >
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v11.0&appId=1150331995115046&autoLogAppEvents=1" nonce="YenDxtbg"></script>
-    <div style="display: flex; flex-direction: column; height: 100%;">
+    <div style="display: flex; flex-direction: column;">
       <header style="display: flex; flex-direction: row; flex-wrap: wrap;">
         <div style="flex: 1;">
           <a href="{{site.url}}" style="max-width: 720px; min-width: 320px; padding: 4px;display:table;clear:both">
@@ -28,17 +28,8 @@
         <h5>{{ page.description | post.description }}</h5>
         <div>{{ content }}</div>
       </main>
-      <div class="fb-comments" data-href="{{ site.url }}{{ page.permalink | post.permalink}}" data-width="" data-numposts="20"></div>
-      <footer 
-        style="padding: 24px; 
-          background-color: #131C28; 
-          color: white; 
-          display: flex; 
-          flex-wrap: wrap; 
-          flex-direction: row; 
-          margin: 0; 
-          justify-content: center;
-        ">
+      <div style="padding: 24px; background-color: #C4DCFA;color: white; display: flex; flex-wrap: wrap; flex-direction: row;  margin: 0; justify-content: center;" class="fb-comments" data-href="{{ site.url }}{{ page.permalink | post.permalink}}" data-width="" data-numposts="20"></div>
+      <footer style="padding: 24px; background-color: #131C28; color: white; display: flex; flex-wrap: wrap; flex-direction: row; margin: 0; justify-content: center;">
         {% include footer.html %}
       </footer>
     </div>
