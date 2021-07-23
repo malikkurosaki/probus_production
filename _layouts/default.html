@@ -23,8 +23,10 @@
         <h3>{{ page.description | post.description }}</h3>
         <div>{{ content }}</div>
       </main>
-      <footer style="height: 70px; background-color: #133B5C; color: white; padding: 16px;">
-        {% include footer.html %}
+      <footer style="display: flex; height: 70px; background-color: #133B5C; color: white; padding: 16px;">
+        <div style="align-self: center;">
+          {% include footer.html %}
+        </div>
       </footer>
     </div>
     </ul>
