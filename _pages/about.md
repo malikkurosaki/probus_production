@@ -1,6 +1,6 @@
 ---
 title: about
-layout: default
+layout: post
 type: menu
 description: ini keteraangan dari about
 permalink: /about/

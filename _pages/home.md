@@ -1,6 +1,6 @@
 ---
 title: home
-layout: default
+layout: post
 type: menu
 description: ini keterangan home
 permalink: /home/
