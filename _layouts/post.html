@@ -5,13 +5,14 @@
 <body>
     {% include fb_sdk.html %}
     <div style="display: flex; flex-direction: column;">
-      {% include header.html %}
-      <hr>
-      <main class="container" style="flex: 1; padding: 8px;" >
-        <div style="padding: 8px;">{{ content }}</div>
-      </main>
-      <hr>
-      {% include fb_comment.html %}
-     {% include footer.html %}
+        {% include header.html %}
+        <hr>
+        <main class="container" style="flex: 1; padding: 8px;" >
+            <div style="padding: 8px;">{{ content }}</div>
+        </main>
+        <hr>
+        {% include fb_comment.html %}
+        {% include footer.html %}
+    </div>
 </body>
 </html>
