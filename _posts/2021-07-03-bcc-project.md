@@ -7,6 +7,5 @@ image: https://www.blackcanyonthai.com/img/logo_new1.png
 ---
 
 
-site url 
-
-{{ site.url }}
+### Bcc Apk MemberShip Beta v1.0.0.1  
+[download]({{ site.url }}/assets/files/apk_bcc_beta_1.0.0.1.apk)
