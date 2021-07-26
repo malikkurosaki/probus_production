@@ -4,8 +4,7 @@
     {% include head.html %}
   </head>
   <body >
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v11.0&appId=1150331995115046&autoLogAppEvents=1" nonce="YenDxtbg"></script>
+    {% include fb_sdk.html %}
     <div style="display: flex; flex-direction: column;">
       {% include header.html %}
       <hr>
