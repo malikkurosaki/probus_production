@@ -2,7 +2,7 @@
 title: project-bcc
 layout: post
 permalink: /project-bcc/
-description: ini keterngan nya dari bcc
+description: wadah untuk project black canyon
 image: https://www.blackcanyonthai.com/img/logo_new1.png
 ---
 
