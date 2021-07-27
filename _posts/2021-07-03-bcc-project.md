@@ -28,14 +28,14 @@ image: https://www.blackcanyonthai.com/img/logo_new1.png
 ### Coming Soon Release Stable 1.0.0.1
 
 **requirements for next release stable 1.0.0.1**
-- promo real case like
+1. promo real case like
   - *properti promo untuk contoh kasus sebenarnya , seperti gambar , berapa banyak promo , dan text untuk promo*
-- menu real case like
+2. menu real case like
   - *list produk promo mencakup gambar , harga , dan diskripsi untuk contoh kasus sebenarnya*
-- real outlet like
+3. real outlet like
   - *data outlet seperti sebenarnya , dari gambar alamat dan kebutuhan lainnya yang akan ditampilkan secara real*
-- term and service
-- about
+4. term and service
+5. about
 
 
 **purpose of use**
