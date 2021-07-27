@@ -25,6 +25,8 @@ image: https://www.blackcanyonthai.com/img/logo_new1.png
 - term and service
 - about
 
+---  
+
 ### Coming Soon Release Stable 1.0.0.1
 
 **requirements for next release stable 1.0.0.1**
