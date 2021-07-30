@@ -14,9 +14,9 @@ permalink: /developer/
 
 1. welcome screen:
     1. [ ] patern belum masuk
-        - `tunggu source`
+        - tunggu source
     2. [ ] logo tanpa lingkaran putih
-        - `tunggu source`
+        - tunggu source
     3. [x] typo text
     4. [x] tulisan kurang naik
 
@@ -25,6 +25,7 @@ permalink: /developer/
 
 3. Form register:
     1. [ ] pendaftaran bisa email / no HP
+        - tunggu backend
     2. [ ] tambahan field tgl lahir dan jenis kelamin
 
 4. Form login :
