@@ -8,12 +8,13 @@ image: https://www.blackcanyonthai.com/img/logo_new1.png
 
 <img src="https://www.blackcanyonthai.com/img/logo_new1.png" width="100%">
 
- {% for post in site.posts %}
-    <div style="display: flex; flex-direction: column; width: 150px; height: 150px; border: 4px solid white;">
-        <a class="button" style="flex: 1; background-color: rgb(228, 228, 228);" href="{{ site.url }}{{ post.permalink }}">
-            <!-- <img style="width: 100%; object-fit: cover;" src="{{ post.image }}" alt="gambar icon"> -->
-            {{ post.title }}
-        </a>
-        
-    </div>
-{% endfor %}
+<div style="display: flex; flex-wrap: wrap; flex-direction: row;">
+      {% for post in site.posts %}
+            <div style="display: flex; flex-direction: column; width: 150px; height: 150px; border: 4px solid white;">
+                <a style="flex: 1; background-color: rgb(228, 228, 228);" href="{{ site.url }}{{ post.permalink }}">
+                    {{ post.title }}
+                    <!-- <img style="width: 100%; object-fit: cover;" src="{{ post.image }}" alt="gambar icon"> -->
+                </a>
+           </div>
+       {% endfor %}
+</div>
