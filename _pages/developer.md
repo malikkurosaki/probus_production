@@ -33,3 +33,4 @@ permalink: /developer/
 
 5. member:
     1. [x] QR virtual card lebih besar
+
