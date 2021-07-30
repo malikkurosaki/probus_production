@@ -1,7 +1,7 @@
 ---
 title: blackcanyon-membership-app-stable-v1.0.0.1
 layout: post
-permalink: /:title
+permalink: /blackcanyon-membership-app-stable-v1.0.0.1
 description: blackcanyon-membership-app-beta-v1.0.0.1
 image: https://i.ytimg.com/vi/pr98YTH67Cw/maxresdefault.jpg
 category: bcc
