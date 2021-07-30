@@ -4,6 +4,7 @@ layout: post
 permalink: /project-bcc/
 description: wadah untuk project black canyon
 image: https://www.blackcanyonthai.com/img/logo_new1.png
+caregory: bcc
 ---
 
 <img src="https://www.blackcanyonthai.com/img/logo_new1.png" width="100%">
