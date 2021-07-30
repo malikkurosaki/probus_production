@@ -8,7 +8,7 @@
         <div>
             {% for page in site.pages %}
                 {% if page.type == "menu" %}
-                    <a class="button" href="{{ site.url }}{{ page.permalink }}"> {{ page.title }}</a>  
+                    <button> <a href="{{ site.url }}{{ page.permalink }}"> {{ page.title }}</a> </button>  
                 {% endif %}
             {% endfor %}
         </div>
