@@ -13,21 +13,21 @@ permalink: /developer/
 
 Revisi Black Canyon App
 
-welcome screen:
-- [ ] patern belum masuk
-- [ ] logo tanpa lingkaran putih
-- [ ] typo text
-- [ ] tulisan kurang naik
+1. welcome screen:
+    1. [ ] patern belum masuk
+    2. [ ] logo tanpa lingkaran putih
+    3. [ ] typo text
+    4. [ ] tulisan kurang naik
 
-Form Awal:
-- [ ] tombol login screen dibuat compact sesuai panjang logo
+2. Form Awal:
+    1. [ ] tombol login screen dibuat compact sesuai panjang logo
 
-Form register:
-- [ ] pendaftaran bisa email / no HP
-- [ ] tambahan field tgl lahir dan jenis kelamin
+3. Form register:
+    1. [ ] pendaftaran bisa email / no HP
+    2. [ ] tambahan field tgl lahir dan jenis kelamin
 
-Form login :
-- [ ] Login bisa menggunakan email / HP
+4. Form login :
+    1. [ ] Login bisa menggunakan email / HP
 
-member:
-- [ ] QR virtual card lebih besar
+5. member:
+    1. [ ] QR virtual card lebih besar
