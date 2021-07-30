@@ -8,9 +8,10 @@ image: https://www.blackcanyonthai.com/img/logo_new1.png
 
 <img src="https://www.blackcanyonthai.com/img/logo_new1.png" width="100%">
 
-{% for post in site.posts %}
-    <a class="button"  href="{{ site.url }}{{ post.permalink }}">
-        {{ post.title }}
-    </a>
-    <hr>
-{% endfor %}
+
+<h3>List Release</h3>
+<ol>
+    {% for post in site.posts %}
+        <li><a class="button"  href="{{ site.url }}{{ post.permalink }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ol>
