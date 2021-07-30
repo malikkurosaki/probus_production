@@ -8,12 +8,9 @@ permalink: /developer/
 
 # Developer
 
-### black canyon membership app
-> 30-07-2021
 
----
-
-Revisi Black Canyon App
+### Revisi Black Canyon App
+`2021-07-30`
 
 1. welcome screen:
     1. [ ] patern belum masuk
