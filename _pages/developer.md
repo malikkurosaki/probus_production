@@ -6,8 +6,7 @@ description: for developer purpose
 permalink: /developer/
 ---
 
-# Developer
-
+# Probus Developer Team
 
 ### Revisi Black Canyon App
 `2021-07-30`
