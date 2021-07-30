@@ -1,7 +1,7 @@
 ---
 title: blackcanyon-membership-app-beta-v1.0.0.1
 layout: post
-permalink: /blackcanyon-membership-app-beta-v1.0.0.1
+permalink: /blackcanyon-membership-app-beta-v1.0.0.1/
 description: blackcanyon-membership-app-beta-v1.0.0.1
 image: https://www.blackcanyonthai.com/img/logo_new1.png
 caregory: bcc
