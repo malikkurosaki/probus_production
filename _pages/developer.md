@@ -26,11 +26,11 @@ permalink: /developer/
 3. Form register:
     1. [ ] pendaftaran bisa email / no HP  
         `tunggu backendz`
-    2. [ ] tambahan field tgl lahir dan jenis kelamin
-
+    2. [ ] tambahan field tgl lahir dan jenis kelamin  
+        `tunggu backend`
 4. Form login :
     1. [ ] Login bisa menggunakan email / HP   
         `tunggu login`
 
 5. member:
-    1. [ ] QR virtual card lebih besar
+    1. [x] QR virtual card lebih besar
