@@ -1,5 +1,5 @@
 ---
-titele: balackcanyon
+title: balackcanyon
 layout: page
 type: page
 permalink: /blackcanyon/
