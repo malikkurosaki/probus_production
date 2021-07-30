@@ -1,34 +1,12 @@
 ---
-title: project-bcc
+title: blackcanyon-membership-app-stable-v1.0.0.1
 layout: post
-permalink: /project-bcc/
-description: wadah untuk project black canyon
-image: https://www.blackcanyonthai.com/img/logo_new1.png
-caregory: bcc
+permalink: /:title/
+description: blackcanyon-membership-app-beta-v1.0.0.1
+image: https://i.ytimg.com/vi/pr98YTH67Cw/maxresdefault.jpg
+category: bcc
 ---
 
-<img src="https://www.blackcanyonthai.com/img/logo_new1.png" width="100%">
-
-{:toc}
-
-### Bcc Apk MemberShip Beta v1.0.0.1  
-[download | bcc_beta_v1.0.0.1.apk]({{ site.url }}/assets/files/apk_bcc_beta_1.0.0.1.apk)
-
-**change log**  
-- penambahan design
-- penambahan introduce page
-- validasi signup dan login
-- virtualcard
-- profile user
-- detai menu
-- menu dan detail tanpa login
-- update profile
-- catalog menu
-- history transaction
-- term and service
-- about
-
----  
 
 ### Coming Soon Release Stable 1.0.0.1
 
