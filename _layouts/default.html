@@ -10,15 +10,8 @@
       <hr>
       <main class="container" style="flex: 1; padding: 8px;" >
 
-        <!-- <div style="padding: 8px;">{{ content }}</div> -->
-        <div>
-          {% for page in site.pages %}
-            {% if page.type == "page" %}
-              <a class="button" href="{{ site.url }}{{ page.permalink }}"> {{ page.title }}</a>
-            {% endif %}
-          {% endfor %}
-      </div>
-
+        <div style="padding: 8px;">{{ content }}</div>
+       
       </main>
       <hr>
 
