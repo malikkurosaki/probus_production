@@ -6,6 +6,8 @@ description: for developer purpose
 permalink: /developer/
 ---
 
+# Developer
+
 ### black canyon membership app
 > 30-07-2021
 
