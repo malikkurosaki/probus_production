@@ -8,11 +8,8 @@ image: https://www.blackcanyonthai.com/img/logo_new1.png
 
 <img src="https://www.blackcanyonthai.com/img/logo_new1.png" width="100%">
 
-<div style="display: flex; flex-wrap: wrap; flex-direction: row;">
-      {% for post in site.posts %}
-        <a class="button"  href="{{ site.url }}{{ post.permalink }}">
-            {{ post.title }}
-           
-        </a>
-       {% endfor %}
-</div>
+{% for post in site.posts %}
+    <a class="button"  href="{{ site.url }}{{ post.permalink }}">
+        {{ post.title }}
+    </a>
+{% endfor %}
