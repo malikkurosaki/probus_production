@@ -14,9 +14,11 @@ permalink: /developer/
 
 1. welcome screen:
     1. [ ] patern belum masuk
+        - `tunggu source`
     2. [ ] logo tanpa lingkaran putih
-    3. [ ] typo text
-    4. [ ] tulisan kurang naik
+        - `tunggu source`
+    3. [x] typo text
+    4. [x] tulisan kurang naik
 
 2. Form Awal:
     1. [ ] tombol login screen dibuat compact sesuai panjang logo
