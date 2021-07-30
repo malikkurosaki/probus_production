@@ -7,9 +7,9 @@
     <nav style="display: flex; justify-content: center; align-items: center;">
         <div>
             {% for page in site.pages %}
-            {% if page.type == "menu" %}
-            <a class="button" href="{{ site.url }}{{ page.permalink }}"> {{ page.title }}</a>
-            {% endif %}
+                {% if page.type == "menu" %}
+                    <a class="button" href="{{ site.url }}{{ page.permalink }}"> {{ page.title }}</a>
+                {% endif %}
             {% endfor %}
         </div>
     </nav>
