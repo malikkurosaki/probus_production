@@ -10,12 +10,12 @@ image: https://i.postimg.cc/WpGym7DV/image.png
         {% if page.type == "page" %}
             <!-- <a class="button" href="{{ site.url }}{{ page.permalink }}"> {{ page.title }}</a> -->
             <div class="gallery">
-               <div style="height: 140px;">
-                    <a href="{{ site.url }}{{ page.permalink }}">
+                <a href="{{ site.url }}{{ page.permalink }}">
+                    <div style="height: 150px;">
                         <img  src="{{ page.image }}" alt="gambar icon">
-                    </a>
-               </div>
-                <div class="desc">{{ page.title }}</div>
+                    </div>
+                    <div class="desc">{{ page.title }}</div>
+                </a>
             </div>
         {% endif %}
     {% endfor %}
