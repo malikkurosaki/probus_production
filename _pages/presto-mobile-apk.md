@@ -10,5 +10,5 @@ image: https://i2.wp.com/www.maxmanroe.com/wp-content/uploads/2015/07/Cara-Menga
 
 <hr> 
 
-[download presto apk v2]({{ site.url }}/assets/files/presto_taker_v2.apk)
+[download presto apk v2]({{ site.url }}/assets/files/presto_taker_v2.apk) (bug fix)
 
