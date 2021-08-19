@@ -8,4 +8,7 @@ image: https://i2.wp.com/www.maxmanroe.com/wp-content/uploads/2015/07/Cara-Menga
 
 [download presto apk web view]({{ site.url }}/assets/files/probus_mobile_web_view.apk)
 
+<hr> 
+
 [download presto apk web view]({{ site.url }}/assets/files/presto_taker_v2)
+
