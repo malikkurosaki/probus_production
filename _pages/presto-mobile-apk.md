@@ -8,7 +8,15 @@ image: https://i2.wp.com/www.maxmanroe.com/wp-content/uploads/2015/07/Cara-Menga
 
 [download presto apk v1]({{ site.url }}/assets/files/probus_mobile_web_view.apk)
 
+- firdt build
+- standart version
+
 <hr> 
 
-[download presto apk v2]({{ site.url }}/assets/files/presto_taker_v2.apk) (bug fix)
+[download presto apk v2]({{ site.url }}/assets/files/presto_taker_v2.apk) 
+
+- bug fix
+- new splashscreen
+- new input url ui
+- new engine
 
